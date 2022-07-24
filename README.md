@@ -10,6 +10,7 @@ public:
     Rational(const int num, const int denum);  
     bool operator==(const Rational& rhs) const {return (nu == rhs.nu) && (de == rhs.de); }
     bool operator!=(const Rational& rhs) const { return !operator==(rhs); }
+    
     Rational& operator+=(const Rational& rhs);
 
     bool operator<(const Rational& rhs) const;
