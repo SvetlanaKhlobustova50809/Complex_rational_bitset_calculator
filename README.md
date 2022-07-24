@@ -10,25 +10,8 @@ public:
     bool operator==(const Rational& rhs) const {return (nu == rhs.nu) && (de == rhs.de); }
     bool operator!=(const Rational& rhs) const { return !operator==(rhs); }
     Rational& operator+=(const Rational& rhs);
-    Rational& operator-=(const Rational& rhs);
-    Rational& operator*=(const Rational& rhs);
-    Rational& operator/=(const Rational& rhs);
 
     bool operator<(const Rational& rhs) const;
-    bool operator>(const Rational& rhs) const;
-    bool operator<=(const Rational& rhs) const;
-    bool operator>=(const Rational& rhs) const;
-    
-
-    Rational operator-() const {
-        Rational s(*this);
-        s.nu *= -1;
-        return s;
-    }
-    Rational operator+() const {
-        Rational s(*this);
-        return s;
-    }
 
     static int Nok(int i1, int i2);
     static void Inv(int& nu, int& de);
