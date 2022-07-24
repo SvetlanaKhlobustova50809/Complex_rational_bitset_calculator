@@ -41,16 +41,4 @@ public:
     int de{ 1 };
 
     static const char sep{ '/' };
-};
-
-Rational operator+(const Rational& lhs, const Rational& rhs);
-Rational operator-(const Rational& lhs, const Rational& rhs);
-Rational operator*(const Rational& lhs, const Rational& rhs);
-Rational operator/(const Rational& lhs, const Rational& rhs);
-
-inline std::ostream& operator<<(std::ostream& ostr, const Rational& rhs) {
-    return rhs.writeTo(ostr);
-}
-inline std::istream& operator>>(std::istream& istr, Rational& rhs) {
-    return rhs.readFrom(istr);
-}`
+};`
