@@ -1,7 +1,7 @@
 ## Complex_rational_bitset_calculator
 **Калькуляторы для работы с комплексными, рациональными числами, а также битовыми значениями. Последние два протестированы с помощью платформы doctest.**
 
-Это учебный проект, что я сделала в институте. Каждый калькулятор содержит в себе 3 файла: header, cpp, тестовый. 
+Это учебный проект, что я сделала в университете. Каждый калькулятор содержит в себе 3 файла: header, cpp, тестовый. 
 *Представленный проект залит на CMake, вы можете прсмотреть [рациональные](https://mysvn.ru/svetlana_hm/svetlana_hm/hlobustova_s_m/prj.lab/rational/), [комплексные](https://mysvn.ru/svetlana_hm/svetlana_hm/hlobustova_s_m/prj.lab/complex/) и [бинарные](https://mysvn.ru/svetlana_hm/svetlana_hm/hlobustova_s_m/prj.lab/bitset/) числа.
 Также [здесь](https://mysvn.ru/svetlana_hm/svetlana_hm/hlobustova_s_m/prj.lab/bitsett/) я использовала шаблоны <template> при работе с битовыми значениями.*
 
